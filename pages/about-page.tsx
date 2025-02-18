@@ -1,10 +1,10 @@
 'use dom';
-import '../global.css'
-import '../fontawesome.css'
+// import '../global.css'
+// import '../fontawesome.css'
 import { Link } from "expo-router";
 import React, { useState, useEffect, useCallback, useMemo, useRef, useContext, useReducer, useLayoutEffect, useImperativeHandle, useDebugValue } from "react";
-import FontAwesome from '@expo/vector-icons/FontAwesome';
-FontAwesome.loadFont()
+// import FontAwesome from '@expo/vector-icons/FontAwesome';
+// FontAwesome.loadFont()
 
 export default function MainComponent() {
   const [isVisible, setIsVisible] = useState(false);

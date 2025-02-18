@@ -1,10 +1,10 @@
 'use dom';
-import '../global.css'
-import '../fontawesome.css'
+// import '../global.css'
+// import '../fontawesome.css'
 import { Link } from "expo-router";
 import React, { useState, useEffect, useCallback, useMemo, useRef, useContext, useReducer, useLayoutEffect, useImperativeHandle, useDebugValue } from "react";
-import FontAwesome from '@expo/vector-icons/FontAwesome';
-FontAwesome.loadFont()
+// import FontAwesome from '@expo/vector-icons/FontAwesome';
+// FontAwesome.loadFont()
 
 export default function MainComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -82,7 +82,7 @@ export default function MainComponent() {
         </div>
       </main>
 
-      <style jsx="true" global="true">{`
+      {/* <style jsx="true" global="true">{`
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(20px); }
           to { opacity: 1; transform: translateY(0); }
@@ -99,7 +99,7 @@ export default function MainComponent() {
         .animate-fadeInDelay2 {
           animation: fadeIn 0.8s ease-out 0.4s forwards;
         }
-      `}</style>
+      `}</style> */}
     </div>
   );
 }

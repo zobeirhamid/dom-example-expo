@@ -1,7 +1,14 @@
-import Page from '../pages/landing-page'
+// import Page from '../pages/landing-page'
 
+// export default function Route() {
+//   return (
+//     <Page dom={{ matchContents: false }} />
+//   )
+// }
+
+import { View, Text } from 'react-native'
 export default function Route() {
   return (
-    <Page dom={{ matchContents: false }} />
+    <View><Text>Hello World</Text></View>
   )
 }
